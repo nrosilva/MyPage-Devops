@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Jornada DevOps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #fff;
+      color: #000;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      padding: 20px;
+      border-bottom: 2px solid #3498db;
+    }
+
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #3498db;
+      object-fit: cover;
+    }
+
+    .flag-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid #d3da13;
+      margin-top: 10px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 15px 0;
+    }
+
+    .social-links img {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.3s;
+    }
+
+    .social-links img:hover {
+      transform: scale(1.2);
+    }
+
+    main {
+      text-align: left;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #3498db;
+      border-bottom: 1px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .cta-button:hover {
+      background-color: #2980b9;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      .profile-img {
+        width: 120px;
+        height: 120px;
+      }
+      .social-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="profile-container">
+        <img src="Nilson.jpeg" alt="Foto de perfil" class="profile-img">
+        <img src="IconeBandeiraBrasil.jpeg" alt="Bandeira do Brasil" class="flag-img">
+        <h1>Minha Jornada DevOps</h1>
+        <p class="subtitle">Do zero à Nuvem!</p>
+      </div>
+    </header>
+
+    <div class="social-links">
+      <a href="#"><img src="Iconegithub.png" alt="GitHub"></a>
+      <a href="#"><img src="Icone linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="iconetwiter.png" alt="Twitter"></a>
+    </div>
+
+    <main>
+      <section>
+        <h2>Sobre Mim</h2>
+        <p>Minha jornada em DevOps está apenas começando...</p>
+      </section>
+      <a href="#" class="cta-button">Saiba Mais</a>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Minha Jornada DevOps.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
